@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+.cabecalho th{
+   
+    background-color: #a9def9;
+    padding: 3%;
+
+}
+
+.descricao {
+    background-color: #a9def9;
+}
+
+.table,.descricao, .cabecalho, td {
+    border: 1px solid black;
+}
